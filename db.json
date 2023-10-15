@@ -1,0 +1,326 @@
+{
+  "salons": [
+    {
+      "name": "Salon One",
+      "img": "https://cdn1.treatwell.net/images/view/v2.i5195830.w720.h480.x9871F0B0.jpg",
+      "address": "Hauptstraße 1, Wien",
+      "description": " 8:00 - 18:00",
+      "treatments": [
+        {
+          "name": "Haarschnitt",
+          "duration": "30 Minuten",
+          "price": 35,
+          "id": "uuid1",
+          "type": "hair"
+        },
+        {
+          "name": "Styling und Föhnen",
+          "duration": "50 Minuten",
+          "price": 40,
+          "id": "uuid2",
+          "type": "hair"
+        },
+        {
+          "name": "Farbe, Tönung und Strähnen",
+          "duration": "60 Minuten",
+          "price": 50,
+          "id": "uuid3",
+          "type": "hair"
+        }
+      ]
+    },
+    {
+      "name": "Salon Two",
+      "address": "Nebenstraße 54, Wien",
+      "img": "https://cdn1.treatwell.net/images/view/v2.i5842224.w720.h480.xAF16882B/.jpg",
+      "description": " 9:00 - 19:00",
+      "treatments": [
+        {
+          "name": "Haarschnitt",
+          "duration": "30 Minuten",
+          "price": 40,
+          "id": "uuid4"
+        },
+        {
+          "name": "Styling und Föhnen",
+          "duration": "50 Minuten",
+          "price": 50,
+          "id": "uuid5"
+        },
+        {
+          "name": "Farbe, Tönung und Strähnen",
+          "duration": "60 Minuten",
+          "price": 60,
+          "id": "uuid6"
+        }
+      ]
+    },
+    {
+      "name": "Salon Three",
+      "address": "Zirkusstraße 35, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i8305889.w720.h480.x06C02012/.jpg",
+      "description": " 7:00 - 19:00",
+      "treatments": [
+        {
+          "name": "Haarschnitt",
+          "duration": "30 Minuten",
+          "price": 45,
+          "id": "uuid7"
+        },
+        {
+          "name": "Styling und Föhnen",
+          "duration": "50 Minuten",
+          "price": 55,
+          "id": "uuid8"
+        },
+        {
+          "name": "Farbe, Tönung und Strähnen",
+          "duration": "60 Minuten",
+          "price": 65,
+          "id": "uuid9"
+        }
+      ]
+    },
+    {
+      "name": "Salon Four",
+      "address": "Rosasstraße 13, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i2897982.w720.h480.x68D384D2/.jpg",
+      "description": " 9:00 - 20:00",
+      "treatments": [
+        {
+          "name": "Pediküre",
+          "duration": "60 Minuten",
+          "price": 45,
+          "id": "uuid10",
+          "type": "nail"
+        },
+        {
+          "name": "Maniküre",
+          "duration": "60 Minuten",
+          "price": 40,
+          "id": "uuid11",
+          "type": "nail"
+        },
+        {
+          "name": "Nagel Design",
+          "duration": "90 Minuten",
+          "price": 55,
+          "id": "uuid12",
+          "type": "nail"
+        }
+      ]
+    },
+    {
+      "name": "Salon Five",
+      "address": "Kärtnerstraße 1, Wien",
+      "img": "https://cdn1.treatwell.net/images/view/v2.i6155100.w720.h480.x206EFD8B/.jpg",
+      "description": " 10:00 - 20:00",
+      "treatments": [
+        {
+          "name": "Pediküre",
+          "duration": "45 Minuten",
+          "price": 40,
+          "type": "Nail",
+          "id": "uuid13"
+        },
+        {
+          "name": "Maniküre",
+          "duration": "40 Minuten",
+          "price": 45,
+          "id": "uuid14"
+        },
+        {
+          "name": "Nagel Design",
+          "duration": "50 Minuten",
+          "price": 50,
+          "id": "uuid15"
+        }
+      ]
+    },
+    {
+      "name": "Salon Six",
+      "address": "Neubaustraße 32, Wien",
+      "img": "https://cdn1.treatwell.net/images/view/v2.i6155097.w1080.h720.xC8E490B3/.jpg",
+      "description": " 9:00 - 15:00",
+      "treatments": [
+        {
+          "name": "Pediküre",
+          "duration": "30 Minuten",
+          "price": 30,
+          "id": "uuid16"
+        },
+        {
+          "name": "Maniküre",
+          "duration": "50 Minuten",
+          "price": 45,
+          "id": "uuid17"
+        },
+        {
+          "name": "Nagel Design",
+          "duration": "45 Minuten",
+          "price": 40,
+          "id": "uuid18"
+        }
+      ]
+    },
+    {
+      "name": "Salon Seven",
+      "address": "Pilgramstraße 25, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i1208064.w1080.h720.x13558573/.jpg",
+      "description": " 7:00 - 18:00",
+      "treatments": [
+        {
+          "name": "Waxing",
+          "duration": "30 Minuten",
+          "price": 30,
+          "id": "uuid19",
+          "type": "hairremove"
+        },
+        {
+          "name": "Sugaring",
+          "duration": "30 Minuten",
+          "price": 40,
+          "id": "uuid20",
+          "type": "hairremove"
+        },
+        {
+          "name": "Dauerhafte Haarentfernung",
+          "duration": "30 Minuten",
+          "price": 75,
+          "id": "uuid21",
+          "type": "hairremove"
+        }
+      ]
+    },
+    {
+      "name": "Salon Eight",
+      "address": "Karlstraße 20, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i1402964.w1080.h720.xD1CB2344/.jpg",
+      "description": " 9:00 - 18:00",
+      "treatments": [
+        {
+          "name": "Waxing",
+          "duration": "30 Minuten",
+          "price": 35,
+          "id": "uuid22"
+        },
+        {
+          "name": "Sugaring",
+          "duration": "40 Minuten",
+          "price": 45,
+          "id": "uuid23"
+        },
+        {
+          "name": "Dauerhafte Haarentfernung",
+          "duration": "30 Minuten",
+          "price": 85,
+          "id": "uuid24"
+        }
+      ]
+    },
+    {
+      "name": "Salon Nine",
+      "address": "Kettenstraße 25, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i2106027.w720.h480.x192C06B6/.jpg",
+      "description": " 8:00 - 16:00",
+      "treatments": [
+        {
+          "name": "Waxing",
+          "duration": "45 Minuten",
+          "price": 40,
+          "id": "uuid25"
+        },
+        {
+          "name": "Sugaring",
+          "duration": "35 Minuten",
+          "price": 45,
+          "id": "uuid26"
+        },
+        {
+          "name": "Dauerhafte Haarentfernung",
+          "duration": "45 Minuten",
+          "price": 80,
+          "id": "uuid27"
+        }
+      ]
+    },
+    {
+      "name": "Salon Ten",
+      "address": "Ruckerstraße 20, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i7640001.w1080.h720.x6AD6B0B6/.jpg",
+      "description": " 10:00 - 18:00",
+      "treatments": [
+        {
+          "name": "Augenbrauen zupfen",
+          "duration": "15 Minuten",
+          "price": 10,
+          "id": "uuid28"
+        },
+        {
+          "name": "Augenbrauen färben",
+          "duration": "20 Minuten",
+          "price": 20,
+          "id": "uuid29"
+        },
+        {
+          "name": "Gesichtsbehandlungen",
+          "duration": "30 Minuten",
+          "price": 80,
+          "id": "uuid30"
+        }
+      ]
+    },
+    {
+      "name": "Salon Eleven",
+      "address": "Poststraße 10, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i6255075.w1080.h720.x73845D63/.jpg",
+      "description": " 10:00 - 17:00",
+      "treatments": [
+        {
+          "name": "Augenbrauen zupfen",
+          "duration": "15 Minuten",
+          "price": 15,
+          "id": "uuid31"
+        },
+        {
+          "name": "Augenbrauen färben",
+          "duration": "25 Minuten",
+          "price": 15,
+          "id": "uuid32"
+        },
+        {
+          "name": "Gesichtsbehandlungen",
+          "duration": "60 Minuten",
+          "price": 75,
+          "id": "uuid33"
+        }
+      ]
+    },
+    {
+      "name": "Salon Twelve",
+      "address": "Scwedenstraße 60, Wien",
+      "img":"https://cdn1.treatwell.net/images/view/v2.i2538150.w1080.h720.x9E0EDF1A/.jpg",
+      "description": " 8:00 - 18:00",
+      "treatments": [
+        {
+          "name": "Augenbrauen zupfen",
+          "duration": "15 Minuten",
+          "price": 8,
+          "id": "uuid34"
+        },
+        {
+          "name": "Augenbrauen färben",
+          "duration": "20 Minuten",
+          "price": 15,
+          "id": "uuid35"
+        },
+        {
+          "name": "Gesichtsbehandlungen",
+          "duration": "30 Minuten",
+          "price": 60,
+          "id": "uuid36"
+        }
+      ]
+    }
+  ]
+}

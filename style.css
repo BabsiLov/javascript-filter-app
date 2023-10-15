@@ -1,0 +1,229 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #ec2b00 !important;
+}
+
+
+.wrapper {
+  padding-bottom: 30px;
+}
+
+.main-menu {
+  padding: 20px;
+}
+
+.logo {
+  color: #aa1e00;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero {
+  background: url("https://cdn1.treatwell.net/images/view/v2.i8202831.w1851.h780.x0933488B.jpg");
+  width: 100%;
+  min-height: 55vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: cover;
+
+}
+
+.hero-content {
+  width: 100%;
+  width: min(100%, 780px);
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+
+}
+
+.form {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 361px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.form-body input {
+  width: 100%;
+  font-size: 12px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.636);
+  border-radius: 2px;
+  height: 40px;
+  font-weight: 800;
+}
+
+#searchInput {
+  padding-right: 25px;
+}
+
+.clear {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  padding: 4px;
+  color: gray;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.clear:hover {
+  opacity: 0.7;
+}
+
+.form-body button {
+  width: 100%;
+  font-size: 15px;
+  padding: 4px;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.636);
+  border-radius: 2px;
+  height: 40px;
+  font-weight: 800;
+  background-color: #ff5c39;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.select-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #ff5c39;
+  font-weight: bold;
+  align-items: center;
+}
+
+.salons,
+.treatments {
+  cursor: pointer;
+}
+
+.salons:hover,
+.treatments:hover {
+  opacity: 0.7;
+}
+
+/* For selecting */
+
+.selected {
+  border-bottom: 2px solid orange;
+  opacity: 1;
+}
+
+/*  */
+.main-text {
+  display: flex;
+  align-items: center;
+  color: white;
+  letter-spacing: 10px;
+
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.deko{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  gap: 100px;
+  justify-content: center;
+}
+
+.deko div{
+  display: block;
+  gap: 20px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.deko div p{
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* List Salons */
+
+.list {
+  display: flex;
+  margin-top: 20px;
+  /* justify-content: space-around; */
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.card {
+  background-color: #ff5c39;
+  border-radius: 0px;
+  /* flex-basis: 30%; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+  width: 30%;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card h2 {
+  border-bottom: 2px solid orange;
+  margin: 0px;
+}
+
+
+
+.card-body {
+  padding: 10px;
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body p{
+  margin: 5px;
+}
+.foto{
+  height: 60%;
+  background-size: cover;
+}
